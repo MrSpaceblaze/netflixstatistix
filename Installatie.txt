@@ -1,0 +1,11 @@
+Fer Schmidt(2124805, ffschmid@student.avans.nl)& Banujan Parmasamy () uit 23IVT1E
+
+Wat is er nodig om de applicatie te starten?
+1. Java
+2. Microsoft SQL Server Management Studio
+
+Hoe kan je de applicatie starten?
+1. open de .sql
+2. voer hem uit.
+3. sluit het bestand
+4. open run.bat

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: mssql-jdbc-6.2.2.jre81
+Main-Class: startpackage.Main
+
