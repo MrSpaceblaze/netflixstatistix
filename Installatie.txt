@@ -15,4 +15,9 @@ Hoe kan je de applicatie starten?
 7. Zorg ervoor dat de status van TCP/IP Enabled is
 Als dit niet zo is, rechts-klik op TCP/IP en zet in de tab Protocol de optie naar enabled.
 8. Onder SQL Server Services herstart SQL Server en SQL Server Browser
+9.  Gebruik 'Zoeken' om te zoeken naar 'Systeem' (Configuratiescherm) en selecteer deze optie vervolgens.
+    Klik op de koppeling Geavanceerde systeeminstellingen.
+    Klik op Omgevingsvariabelen. Zoek in het gedeelte Systeemvariabelen de omgevingsvariabele PATH en selecteer deze. Klik op Bewerken. Als de omgevingsvariabele PATH niet bestaat, klikt u op Nieuw.
+    Geef in het venster Nieuwe systeemvariabele een waarde op voor de omgevingsvariabele PATH. Klik op OK. Klik op OK om de resterende vensters te sluiten. Deze waarde moet <de locatie van de Microsoft SQL Server Driver>/sqljdbc/enu/auth/x86/sqljdbc_auth.dll zijn
+    Open het opdrachtpromptvenster opnieuw en voer uw Java-code uit.
 9. open run.bat
