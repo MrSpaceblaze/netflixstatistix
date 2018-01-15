@@ -3,6 +3,7 @@ Fer Schmidt(2124805, ffschmid@student.avans.nl)& Banujan Parmasamy () uit 23IVT1
 Wat is er nodig om de applicatie te starten?
 1. Java
 2. Microsoft SQL Server Management Studio
+3. Microsoft SQL Server Driver (zit bij dit project)
 
 Hoe kan je de applicatie starten?
 1. open de .sql
