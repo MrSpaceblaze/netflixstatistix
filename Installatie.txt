@@ -5,6 +5,7 @@ Wat is er nodig om de applicatie te starten?
 2. Microsoft SQL Server Management Studio
 3. Microsoft SQL Server Driver (zit bij dit project)
 4. Winrar/7Zip
+5. Windows
 
 Hoe kan je de applicatie starten?
 1. open de .sql met het Management Studio
@@ -16,9 +17,6 @@ Hoe kan je de applicatie starten?
 7. Zorg ervoor dat de status van TCP/IP Enabled is
 Als dit niet zo is, rechts-klik op TCP/IP en zet in de tab Protocol de optie naar enabled.
 8. Onder SQL Server Services herstart SQL Server en SQL Server Browser
-9.  Gebruik 'Zoeken' om te zoeken naar 'Systeem' (Configuratiescherm) en selecteer deze optie vervolgens.
-    Klik op de koppeling Geavanceerde systeeminstellingen.
-    Klik op Omgevingsvariabelen. Zoek in het gedeelte Systeemvariabelen de omgevingsvariabele PATH en selecteer deze. Klik op Bewerken. Als de omgevingsvariabele PATH niet bestaat, klikt u op Nieuw.
-    Geef in het venster Nieuwe systeemvariabele een waarde op voor de omgevingsvariabele PATH. Klik op OK. Klik op OK om de resterende vensters te sluiten. Deze waarde moet de locatie van de Microsoft SQL Server Driver>/sqljdbc/enu/auth/x86/sqljdbc_auth.dll zijn
-    Open het opdrachtpromptvenster opnieuw en voer uw Java-code uit. 
-9. open run.bat
+9. Open de map van de Server Driver en klik door tot je meerdere keuzes van programmas en maps hebt, ga hierin naar auth en kies de versie van Windows die je gebruikt (x86 voor windows 32-bits en x64 voor 64 bits)
+10. kopieer de inhoud van de map naar je java (Gebruikelijk is dit C:\Program Files(x86)\Java\jre.<Version>\bin)
+10. open run.bat
