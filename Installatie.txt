@@ -8,4 +8,10 @@ Hoe kan je de applicatie starten?
 1. open de .sql
 2. voer hem uit.
 3. sluit het bestand
-4. open run.bat
+4. ga naar start
+5. zoek naar 'SQLServerManager13.msc' en start deze
+6. Klik op SQL Server Network Configuration
+7. Zorg ervoor dat de status van TCP/IP Enabled is
+Als dit niet zo is, rechts-klik op TCP/IP en zet in de tab Protocol de optie naar enabled.
+8. Onder SQL Server Services herstart SQL Server en SQL Server Browser
+9. open run.bat
