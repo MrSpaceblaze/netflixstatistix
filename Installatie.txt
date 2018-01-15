@@ -4,6 +4,7 @@ Wat is er nodig om de applicatie te starten?
 1. Java
 2. Microsoft SQL Server Management Studio
 3. Microsoft SQL Server Driver (zit bij dit project)
+4. Winrar/7Zip
 
 Hoe kan je de applicatie starten?
 1. open de .sql
